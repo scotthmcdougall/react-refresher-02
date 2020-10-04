@@ -1,0 +1,15 @@
+Body{
+  font-family: sans-serif;
+}
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.auth-greeting {
+  font-size: smaller;
+  font-weight: bold;
+  border: 1px solid silver;
+  background-color: silver;
+  padding:6px;
+}
