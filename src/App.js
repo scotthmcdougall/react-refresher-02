@@ -22,6 +22,7 @@ export default function App() {
           <h3>Link to <Link to="/about">About</Link></h3>
           <h3>Link to <Link to="/greet">Greet</Link></h3>
           <h3>Link to <Link to="/useref">UseRef</Link></h3>
+          <h3>Link to <Link to="/useeffect">UseEffect</Link></h3>
         </Route>
 
         <Route path="/home" component={Home} exact />
