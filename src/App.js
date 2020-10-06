@@ -6,6 +6,9 @@ import About from "./components/About";
 import Greet from "./components/Greet";
 import UseRef from "./components/UseRef";
 import UseEffect from "./components/UseEffect";
+import LocalStorage from "./components/LocalStorage";
+import ContextAPIState from "./components/ContextAPIState";
+import MaterialUI from "./components/MaterialUI";
 
 import "./styles.css";
 
@@ -23,6 +26,9 @@ export default function App() {
           <h3>Link to <Link to="/greet">Greet</Link></h3>
           <h3>Link to <Link to="/useref">UseRef</Link></h3>
           <h3>Link to <Link to="/useeffect">UseEffect</Link></h3>
+          <h3>Link to <Link to="/localstorage">LocalStorage</Link></h3>
+          <h3>Link to <Link to="/contextapistate">ContextAPIState</Link></h3>
+          <h3>Link to <Link to="/materialui">MaterialUI</Link></h3>
         </Route>
 
         <Route path="/home" component={Home} exact />
@@ -34,6 +40,12 @@ export default function App() {
         <Route path="/useref" component={UseRef} exact />
 
         <Route path="/useeffect" component={UseEffect} exact />
+
+        <Route path="/localstorage" component={LocalStorage} exact />
+
+        <Route path="/contextapistate" component={ContextAPIState} exact />
+
+        <Route path="/materialui" component={MaterialUI} exact />
 
       </Switch>
 
