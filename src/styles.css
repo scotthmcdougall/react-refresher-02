@@ -1,4 +1,4 @@
-Body{
+Body {
   font-family: sans-serif;
 }
 .App {
@@ -11,5 +11,24 @@ Body{
   font-weight: bold;
   border: 1px solid silver;
   background-color: silver;
-  padding:6px;
+  padding: 6px;
+}
+
+.cardBox {
+  border: 1px solid gray;
+  padding: 4px;
+  border-radius: 4px;
+  margin: 8px;
+  font-size:smaller;
+}
+
+.loader{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
